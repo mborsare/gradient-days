@@ -1,0 +1,20 @@
+---
+title: Posts
+---
+
+%button.btn.posts
+  = link_to 'index', '/index.html'
+
+.container
+  %h1 Gradientz!
+  %p
+    Gradient a day motherfucker this is posts
+
+  - (1..16).each do
+    = link_to '', '/gradient.html', :class => 'gradient--thumb'
+
+/ %nav
+/   %ul
+/     %li previous
+/     %li
+/       = link_to 'Gradient', '/gradient.html'

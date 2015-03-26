@@ -3,17 +3,68 @@ body {
   color: $medium-gray;
 }
 
-.delete-me {
-  @include align-items(center);
-  @include display(flex);
-  @include justify-content(center);
-  height: 100vh;
+.btn {
+  @include size(50px);
+  @include position(fixed, 20px 20px null null);
+  background-color: $dark-gray;
+  border-radius: 50%;
+  z-index: 1;
 
-  .container {
-    text-align: center;
+  a {
+    display: block;
+  }
 
-    h1 {
-      font-weight: 200;
-    }
+  &.posts {
+    content: "a post"
+  }
+}
+
+.container {
+  @include outer-container;
+  text-align: center;
+
+  h1 {
+    font-weight: 200;
+  }
+}
+
+.gradient--full {
+  @include linear-gradient(gray, lightgray);
+  @include position(fixed, 0 0 0 0);
+}
+
+
+.gradient--thumb {
+  @include size(null 300px);
+  @include linear-gradient(gray, lightgray);
+  @include margin(null null $base-spacing);
+
+  @include media($medium-screen-up) {
+    @include span-columns(6);
+    @include omega(2n);
+  }
+
+  a {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+.nav {
+  &-previous,
+  &-next {
+    @include position(fixed);
+    z-index: 1;
+    top: 50%;
+  }
+
+  &-previous {
+    color: red;
+    left: $base-spacing;
+  }
+
+  &-next {
+    color: blue;
+    right: $base-spacing;
   }
 }
