@@ -1,9 +1,10 @@
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: "Playfair Display", $helvetica;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
+$display-font-size: modular-scale(4, $base-font-size);
 
 // Line height
 $base-line-height: 1.5;

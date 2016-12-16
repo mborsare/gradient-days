@@ -1,70 +1,14 @@
 body {
-  background-color: $light-gray;
-  color: $medium-gray;
+  align-items: center;
+  background: linear-gradient(90deg, rgb(255,12,131), rgb(120,46,199));
+  color: $base-font-color;
+  cursor: wait;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
 }
 
-.btn {
-  @include size(50px);
-  @include position(fixed, 20px 20px null null);
-  background-color: $dark-gray;
-  border-radius: 50%;
-  z-index: 1;
-
-  a {
-    display: block;
-  }
-
-  &.posts {
-    content: "a post"
-  }
-}
-
-.container {
-  @include outer-container;
-  text-align: center;
-
-  h1 {
-    font-weight: 200;
-  }
-}
-
-.gradient--full {
-  @include linear-gradient(gray, lightgray);
-  @include position(fixed, 0 0 0 0);
-}
-
-
-.gradient--thumb {
-  @include size(null 300px);
-  @include linear-gradient(gray, lightgray);
-  @include margin(null null $base-spacing);
-
-  @include media($medium-screen-up) {
-    @include span-columns(6);
-    @include omega(2n);
-  }
-
-  a {
-    display: block;
-    cursor: pointer;
-  }
-}
-
-.nav {
-  &-previous,
-  &-next {
-    @include position(fixed);
-    z-index: 1;
-    top: 50%;
-  }
-
-  &-previous {
-    color: red;
-    left: $base-spacing;
-  }
-
-  &-next {
-    color: blue;
-    right: $base-spacing;
-  }
+.teaser {
+  color: white;
+  text-shadow: 0 1px 4px rgba(black, 0.25);
 }
