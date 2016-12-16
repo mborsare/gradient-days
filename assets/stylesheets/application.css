@@ -190,7 +190,6 @@ figure {
  */
 /* line 212, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/vendor/normalize.css */
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -331,8 +330,6 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   /* 2 */
   box-sizing: content-box; }
 
@@ -417,7 +414,10 @@ button {
   line-height: 1;
   padding: 0.75em 1em;
   text-decoration: none;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   vertical-align: middle;
   white-space: nowrap; }
   /* line 21, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_buttons.scss */
@@ -471,6 +471,7 @@ textarea {
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
+  -webkit-transition: border-color;
   transition: border-color;
   width: 100%; }
   /* line 44, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_forms.scss */
@@ -535,7 +536,6 @@ dl {
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_tables.scss */
 table {
   -webkit-font-feature-settings: "kern", "liga", "tnum";
-  -moz-font-feature-settings: "kern", "liga", "tnum";
   -ms-font-feature-settings: "kern", "liga", "tnum";
   font-feature-settings: "kern", "liga", "tnum";
   border-collapse: collapse;
@@ -564,7 +564,6 @@ th {
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
-  -moz-font-feature-settings: "kern", "liga", "pnum";
   -ms-font-feature-settings: "kern", "liga", "pnum";
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
@@ -594,6 +593,7 @@ p {
 a {
   color: #477dca;
   text-decoration: none;
+  -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear; }
   /* line 32, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
@@ -618,24 +618,30 @@ picture {
 
 /* line 4, /Users/mborsare/.rvm/gems/ruby-2.2.2/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
 html {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* line 9, /Users/mborsare/.rvm/gems/ruby-2.2.2/gems/neat-1.7.1/app/assets/stylesheets/grid/_box-sizing.scss */
 *, *:before, *:after {
-  -webkit-box-sizing: inherit;
-  -moz-box-sizing: inherit;
   box-sizing: inherit; }
 
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
 body {
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: -webkit-linear-gradient(left, #ff0c83, #782ec7);
   background: linear-gradient(90deg, #ff0c83, #782ec7);
   color: #333;
   cursor: wait;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   min-height: 100vh; }
 
 /* line 11, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
