@@ -4,8 +4,8 @@ body {
   color: $base-font-color;
   cursor: wait;
   display: flex;
+  height: 100vh;
   justify-content: center;
-  min-height: 100vh;
 }
 
 .teaser {
