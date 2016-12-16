@@ -2,8 +2,8 @@
 # the following line to use "https"
 source "http://rubygems.org"
 
-gem "autoprefixer-rails"
 gem "middleman"
+gem "middleman-autoprefixer"
 gem "middleman-livereload"
 gem "middleman-deploy"
 gem "bourbon"

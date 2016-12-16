@@ -2,6 +2,7 @@ require "extensions/views"
 
 activate :views
 activate :directory_indexes
+activate :autoprefixer
 
 set :relative_links, true
 set :css_dir, 'assets/stylesheets'
@@ -22,6 +23,11 @@ end
 activate :deploy do |deploy|
   deploy.build_before = true
   deploy.method = :git
+end
+
+activate :autoprefixer do |config|
+  config.browsers = ['last 2 versions', 'Explorer >= 9']
+  config.ignore   = ['/stylesheets/hacks.css']
 end
 
 helpers do
