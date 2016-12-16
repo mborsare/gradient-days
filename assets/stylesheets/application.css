@@ -638,11 +638,11 @@ body {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  height: 100vh;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 100vh; }
+          justify-content: center; }
 
 /* line 11, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
 .teaser {
