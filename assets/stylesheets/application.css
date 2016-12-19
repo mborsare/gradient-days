@@ -625,6 +625,14 @@ html {
   box-sizing: inherit; }
 
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+html {
+  font-size: 13px; }
+  @media screen and (min-width: 40em) {
+    /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+    html {
+      font-size: 16px; } }
+
+/* line 9, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
 body {
   -webkit-box-align: center;
   -webkit-align-items: center;
@@ -644,7 +652,10 @@ body {
       -ms-flex-pack: center;
           justify-content: center; }
 
-/* line 11, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+/* line 19, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
 .teaser {
+  padding-right: 0.75em;
+  padding-left: 0.75em;
   color: white;
+  text-align: center;
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); }
