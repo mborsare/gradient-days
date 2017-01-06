@@ -1,24 +1,16 @@
 html {
-  font-size: 13px;
+  font-size: 11px;
+  height: 100%;
+
+  @include media($small-screen-up) {
+    font-size: 14px;
+  }
 
   @include media($medium-screen-up) {
-    font-size: 16px;
+    font-size: 18px;
   }
-}
 
-body {
-  align-items: center;
-  background: linear-gradient(90deg, rgb(255,12,131), rgb(120,46,199));
-  color: $base-font-color;
-  cursor: wait;
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-}
-
-.teaser {
-  @include padding(null $small-spacing);
-  color: white;
-  text-align: center;
-  text-shadow: 0 1px 4px rgba(black, 0.25);
+  @include media($large-screen-up) {
+    font-size: 22px;
+  }
 }

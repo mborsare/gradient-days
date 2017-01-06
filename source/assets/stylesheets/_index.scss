@@ -1,0 +1,101 @@
+.index {
+  @include outer-container($medium-screen);
+  background: linear-gradient(180deg, white 25%, tint($husker-du, 80%));
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: $base-font-color;
+  height: 100%;
+  overflow-y: hidden;
+  padding: $base-spacing;
+  text-align: center;
+
+  @include media($large-screen-up) {
+    @include outer-container($large-screen);
+    align-items: center;
+    display: flex;
+    overflow: auto;
+    text-align: left;
+  }
+
+  @media (min-height: $min-height-overflow-freeze) {
+    overflow-y: auto;
+  }
+}
+
+.mobile-device {
+  background: linear-gradient(180deg, $pink 5%, $purple);
+  border-radius: $large-border-radius;
+  display: flex;
+  flex-basis: 320px;
+  flex-shrink: 0;
+  height: 600px;
+  justify-content: center;
+  margin: 0 auto $base-spacing;
+  max-width: 375px;
+}
+
+.download-button {
+  @include size(90px);
+  animation-duration: 2s;
+  animation-iteration-count: 3;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: $base-box-shadow;
+  margin-top: 25vmax;
+  padding: 12px;
+  transition: all 0.25s ease-in-out;
+
+  @include media($large-screen-up) {
+    align-self: center;
+    margin-top: 0;
+  }
+
+  &:hover {
+    @include size(90px * 1.25);
+    box-shadow: $base-box-shadow-hover;
+  }
+
+  &:active {
+    zoom: 0.95;
+  }
+}
+
+.teaser {
+  @include padding($small-spacing null 0);
+  color: shade($purple, 20%);
+
+  @include media($large-screen-up) {
+    @include padding(null $medium-spacing $xsmall-spacing null);
+  }
+}
+
+.g-logotype {
+  @include size(auto);
+
+  @include media($large-screen-up) {
+    @include size(148px 100%);
+    padding-left: $xsmall-spacing;
+  }
+}
+
+.built-by {
+  @include padding($base-spacing null);
+  color: $toasted-mallow;
+  font-family: $monospace;
+  font-weight: 200;
+
+  @include media($large-screen-up) {
+    @include padding(0 null);
+  }
+
+  a {
+    border-bottom: 1px solid rgba($toasted-mallow, 0.5);
+    color: inherit;
+    padding-bottom: 1px;
+
+    &:hover {
+      border-bottom-color: $action-color;
+      color: $action-color;
+    }
+  }
+}
