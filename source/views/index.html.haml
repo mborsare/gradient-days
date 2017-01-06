@@ -1,6 +1,17 @@
 ---
 title: GradientDaze
 ---
+.explainer.animated.zoom-in
+  %header
+    = inline_svg("G-Logotype.svg", class: "g-logotype")
 
-%h1.teaser
-  Coming Winter 2016
+  %h1.teaser
+    Gesture based gradients never felt so good
+
+  .built-by
+    built by
+    = link_to "thoughtbot, inc.", "//www.thoughtbot.com"
+
+.mobile-device.animated.zoom-in
+  = link_to  "//itunes.apple.com/us/app/gradientdaze/id1185051865", class: "download-button animated pulse" do
+    = image_tag("G-Mark.png")

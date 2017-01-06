@@ -1,6 +1,7 @@
 // Typography
-$base-font-family: "Playfair Display", $helvetica;
+$base-font-family: "Big Caslon", $helvetica;
 $heading-font-family: $base-font-family;
+$monospace: "Input", monospace;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -10,11 +11,20 @@ $display-font-size: modular-scale(4, $base-font-size);
 $base-line-height: 1.5;
 $heading-line-height: 1.2;
 
-// Other Sizes
-$base-border-radius: 3px;
+// Spacing
 $base-spacing: $base-line-height * 1em;
+/*$large-spacing: $base-spacing * 4;*/
+$medium-spacing: $base-spacing * 1.25;
 $small-spacing: $base-spacing / 2;
+$xsmall-spacing: $base-spacing / 4;
+
+// Other Sizes
 $base-z-index: 0;
+$min-height-overflow-freeze: 625px;
+
+// Border-radii
+$base-border-radius: 3px;
+$large-border-radius: 24px;
 
 // Colors
 $blue: #477dca;
@@ -23,14 +33,23 @@ $medium-gray: #999;
 $light-gray: #ddd;
 
 // Font Colors
+$purple: #782ec7;
+$pink: #ff0c84;
+$toasted-mallow: #c79f96;
+$husker-du: #ffdfb5;
 $base-background-color: #fff;
 $base-font-color: $dark-gray;
-$action-color: $blue;
+$action-color: $purple;
 
 // Border
 $base-border-color: $light-gray;
 $base-border: 1px solid $base-border-color;
 
 // Forms
-$form-box-shadow: inset 0 1px 3px rgba(#000, 0.06);
+$form-box-shadow: inset 0 1px 3px rgba(#000, 0.05);
 $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $lightness: -5%, $alpha: -0.3);
+
+// Shadows
+$base-box-shadow-size: 0 0 32px 0;
+$base-box-shadow: $base-box-shadow-size rgba(black, 0.25);
+$base-box-shadow-hover: $base-box-shadow-size rgba(black, 0.50);

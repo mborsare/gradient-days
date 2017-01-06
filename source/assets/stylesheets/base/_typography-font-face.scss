@@ -1,0 +1,33 @@
+@font-face {
+  font-family: "Big Caslon";
+  src: url("../fonts/BigCaslon.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/BigCaslon.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/BigCaslon.woff") format("woff"), /* Modern Browsers */
+       url("../fonts/BigCaslon.ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/BigCaslon.svg#b27b23f39781b88bedc6e519ef754c9f") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Input";
+  src: url("../fonts/Input-Regular_(InputMono-Light).eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Input-Regular_(InputMono-Light).eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/Input-Regular_(InputMono-Light).woff") format("woff"), /* Modern Browsers */
+       url("../fonts/Input-Regular_(InputMono-Light).ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/Input-Regular_(InputMono-Light).svg#7945110b09c39060d822ca5b2612ffc3") format("svg"); /* Legacy iOS */
+
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Input";
+  src: url("../fonts/Input-Bold_(InputMono-Medium).eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Input-Bold_(InputMono-Medium).eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/Input-Bold_(InputMono-Medium).woff") format("woff"), /* Modern Browsers */
+       url("../fonts/Input-Bold_(InputMono-Medium).ttf")  format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/Input-Bold_(InputMono-Medium).svg#6050102590c15d7b7f35bfe7847fc58d") format("svg"); /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400;
+}
