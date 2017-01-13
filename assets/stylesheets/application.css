@@ -402,13 +402,13 @@ button {
   -o-appearance: none;
   appearance: none;
   -webkit-font-smoothing: antialiased;
-  background-color: #477dca;
+  background-color: #782ec7;
   border-radius: 3px;
   border: none;
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  font-family: "Playfair Display", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Big Caslon", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   font-weight: 600;
   line-height: 1;
@@ -424,7 +424,7 @@ button {
   input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
   button:hover,
   button:focus {
-    background-color: #2c5999;
+    background-color: #532089;
     color: #fff; }
   /* line 27, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_buttons.scss */
   input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
@@ -444,7 +444,7 @@ input,
 label,
 select {
   display: block;
-  font-family: "Playfair Display", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Big Caslon", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em; }
 
 /* line 16, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_forms.scss */
@@ -465,9 +465,9 @@ textarea {
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 3px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
-  font-family: "Playfair Display", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Big Caslon", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em;
@@ -483,8 +483,8 @@ textarea {
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus,
   textarea:focus {
-    border-color: #477dca;
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    border-color: #782ec7;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 0 5px rgba(108, 41, 178, 0.7);
     outline: none; }
 
 /* line 55, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_forms.scss */
@@ -561,6 +561,30 @@ td,
 th {
   vertical-align: middle; }
 
+@font-face {
+  font-family: "Big Caslon";
+  src: url("../fonts/BigCaslon.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/BigCaslon.eot?#iefix") format("embedded-opentype"), url("../fonts/BigCaslon.woff") format("woff"), url("../fonts/BigCaslon.ttf") format("truetype"), url("../fonts/BigCaslon.svg#b27b23f39781b88bedc6e519ef754c9f") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
+@font-face {
+  font-family: "Input";
+  src: url("../fonts/Input-Regular_(InputMono-Light).eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Input-Regular_(InputMono-Light).eot?#iefix") format("embedded-opentype"), url("../fonts/Input-Regular_(InputMono-Light).woff") format("woff"), url("../fonts/Input-Regular_(InputMono-Light).ttf") format("truetype"), url("../fonts/Input-Regular_(InputMono-Light).svg#7945110b09c39060d822ca5b2612ffc3") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 200; }
+@font-face {
+  font-family: "Input";
+  src: url("../fonts/Input-Bold_(InputMono-Medium).eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Input-Bold_(InputMono-Medium).eot?#iefix") format("embedded-opentype"), url("../fonts/Input-Bold_(InputMono-Medium).woff") format("woff"), url("../fonts/Input-Bold_(InputMono-Medium).ttf") format("truetype"), url("../fonts/Input-Bold_(InputMono-Medium).svg#6050102590c15d7b7f35bfe7847fc58d") format("svg");
+  /* Legacy iOS */
+  font-style: normal;
+  font-weight: 400; }
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
 body {
   -webkit-font-feature-settings: "kern", "liga", "pnum";
@@ -568,7 +592,7 @@ body {
   font-feature-settings: "kern", "liga", "pnum";
   -webkit-font-smoothing: antialiased;
   color: #333;
-  font-family: "Playfair Display", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Big Caslon", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 1em;
   line-height: 1.5; }
 
@@ -579,11 +603,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-family: "Big Caslon", "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
   font-size: 3.15733em;
   font-weight: normal;
   line-height: 1.2;
-  margin: 0 0 0.75em; }
+  margin: 0 0 0.375em; }
 
 /* line 23, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
 p {
@@ -591,13 +615,13 @@ p {
 
 /* line 27, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
 a {
-  color: #477dca;
+  color: #782ec7;
   text-decoration: none;
   -webkit-transition: color 0.1s linear;
   transition: color 0.1s linear; }
   /* line 32, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus, a:hover {
-    color: #2c5999; }
+    color: #532089; }
   /* line 38, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/base/_typography.scss */
   a:active, a:focus {
     outline: none; }
@@ -624,38 +648,217 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+/* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_animations.scss */
+.animated {
+  -webkit-animation-delay: 0.125s;
+          animation-delay: 0.125s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both; }
+
+@-webkit-keyframes zoom-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+
+@keyframes zoom-in {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+            transform: scale3d(0.3, 0.3, 0.3); }
+  50% {
+    opacity: 1; } }
+/* line 18, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_animations.scss */
+.zoom-in {
+  -webkit-animation-name: zoom-in;
+          animation-name: zoom-in; }
+
+@-webkit-keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); } }
+
+@keyframes pulse {
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); }
+  50% {
+    -webkit-transform: scale3d(1.05, 1.05, 1.05);
+            transform: scale3d(1.05, 1.05, 1.05); }
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+            transform: scale3d(1, 1, 1); } }
+/* line 36, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_animations.scss */
+.pulse {
+  -webkit-animation-name: pulse;
+          animation-name: pulse; }
+
 /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
 html {
-  font-size: 13px; }
-  @media screen and (min-width: 40em) {
+  font-size: 11px;
+  height: 100%; }
+  @media screen and (min-width: 375px) {
     /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
     html {
-      font-size: 16px; } }
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+    html {
+      font-size: 18px; } }
+  @media screen and (min-width: 1024px) {
+    /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+    html {
+      font-size: 22px; } }
 
-/* line 9, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
-body {
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: -webkit-linear-gradient(left, #ff0c83, #782ec7);
-  background: linear-gradient(90deg, #ff0c83, #782ec7);
+/* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+.index {
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  background: -webkit-linear-gradient(top, white 25%, #fff8f0);
+  background: linear-gradient(180deg, white 25%, #fff8f0);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   color: #333;
-  cursor: wait;
+  height: 100%;
+  overflow-y: hidden;
+  padding: 1.5em;
+  text-align: center; }
+  /* line 9, /Users/mborsare/.rvm/gems/ruby-2.2.2/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+  .index::after {
+    clear: both;
+    content: "";
+    display: table; }
+  @media screen and (min-width: 1024px) {
+    /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .index {
+      max-width: 1024px;
+      margin-left: auto;
+      margin-right: auto;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      overflow: auto;
+      text-align: left; }
+      /* line 9, /Users/mborsare/.rvm/gems/ruby-2.2.2/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
+      .index::after {
+        clear: both;
+        content: "";
+        display: table; } }
+  @media (min-height: 750px) {
+    /* line 1, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .index {
+      overflow-y: auto; } }
+
+/* line 25, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+.mobile-device {
+  background: -webkit-linear-gradient(top, #ff0c84 5%, #782ec7);
+  background: linear-gradient(180deg, #ff0c84 5%, #782ec7);
+  border-radius: 24px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
+  -webkit-flex-basis: 320px;
+      -ms-flex-preferred-size: 320px;
+          flex-basis: 320px;
+  -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+          flex-shrink: 0;
+  height: 600px;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  margin: 0 auto 1.5em;
+  max-width: 375px; }
 
-/* line 19, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_global.css.scss */
+/* line 37, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+.download-button {
+  height: 90px;
+  width: 90px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: 3;
+          animation-iteration-count: 3;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.25);
+  margin-top: 25vmax;
+  padding: 12px;
+  -webkit-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  @media screen and (min-width: 1024px) {
+    /* line 37, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .download-button {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+      margin-top: 0; } }
+  /* line 53, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  .download-button:hover {
+    height: 112.5px;
+    width: 112.5px;
+    box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.5); }
+  /* line 58, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  .download-button:active {
+    zoom: 0.95; }
+
+/* line 63, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .teaser {
-  padding-right: 0.75em;
-  padding-left: 0.75em;
-  color: white;
-  text-align: center;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); }
+  padding-top: 0.75em;
+  padding-bottom: 0;
+  color: #60249f; }
+  @media screen and (min-width: 1024px) {
+    /* line 63, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .teaser {
+      padding-right: 1.875em;
+      padding-bottom: 0.375em; } }
+
+/* line 72, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+.g-logotype {
+  height: auto;
+  width: auto; }
+  @media screen and (min-width: 1024px) {
+    /* line 72, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .g-logotype {
+      height: 100%;
+      width: 148px;
+      padding-left: 0.375em; } }
+
+/* line 81, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+.built-by {
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  color: #c79f96;
+  font-family: "Input", monospace;
+  font-weight: 200; }
+  @media screen and (min-width: 1024px) {
+    /* line 81, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .built-by {
+      padding-top: 0;
+      padding-bottom: 0; } }
+  /* line 91, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  .built-by a {
+    border-bottom: 1px solid rgba(199, 159, 150, 0.5);
+    color: inherit;
+    padding-bottom: 1px; }
+    /* line 96, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    .built-by a:hover {
+      border-bottom-color: #782ec7;
+      color: #782ec7; }
