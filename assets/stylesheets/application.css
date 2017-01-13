@@ -734,6 +734,7 @@ html {
   height: 100%;
   overflow: hidden;
   padding: 1.5em;
+  position: relative;
   text-align: center; }
   /* line 9, /Users/mborsare/.rvm/gems/ruby-2.2.2/gems/bourbon-4.1.1/app/assets/stylesheets/addons/_clearfix.scss */
   .index::after {
@@ -766,7 +767,7 @@ html {
     .index {
       overflow: auto; } }
 
-/* line 26, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+/* line 27, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .mobile-device {
   background: -webkit-linear-gradient(top, #ff0c84 5%, #782ec7);
   background: linear-gradient(180deg, #ff0c84 5%, #782ec7);
@@ -789,7 +790,7 @@ html {
   margin: 0 auto 1.5em;
   max-width: 320px; }
 
-/* line 38, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+/* line 39, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .download-button {
   height: 90px;
   width: 90px;
@@ -805,44 +806,44 @@ html {
   -webkit-transition: all 0.25s ease-in-out;
   transition: all 0.25s ease-in-out; }
   @media screen and (min-width: 1024px) {
-    /* line 38, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    /* line 39, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
     .download-button {
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center;
       margin-top: 0; } }
-  /* line 54, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  /* line 55, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
   .download-button:hover {
     height: 112.5px;
     width: 112.5px;
     box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.5); }
-  /* line 59, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  /* line 60, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
   .download-button:active {
     zoom: 0.95; }
 
-/* line 64, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+/* line 65, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .teaser {
   padding-top: 0.75em;
   padding-bottom: 0;
   color: #60249f; }
   @media screen and (min-width: 1024px) {
-    /* line 64, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    /* line 65, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
     .teaser {
       padding-right: 1.875em;
       padding-bottom: 0.375em; } }
 
-/* line 73, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+/* line 74, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .g-logotype {
   height: auto;
   width: auto; }
   @media screen and (min-width: 1024px) {
-    /* line 73, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    /* line 74, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
     .g-logotype {
       height: 100%;
       width: 148px;
       padding-left: 0.375em; } }
 
-/* line 82, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+/* line 83, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
 .built-by {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
@@ -850,16 +851,16 @@ html {
   font-family: "Input", monospace;
   font-weight: 200; }
   @media screen and (min-width: 1024px) {
-    /* line 82, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    /* line 83, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
     .built-by {
       padding-top: 0;
       padding-bottom: 0; } }
-  /* line 92, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+  /* line 93, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
   .built-by a {
     border-bottom: 1px solid rgba(199, 159, 150, 0.5);
     color: inherit;
     padding-bottom: 1px; }
-    /* line 97, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
+    /* line 98, /Users/mborsare/Sites/gradientDaze-site/source/assets/stylesheets/_index.scss */
     .built-by a:hover {
       border-bottom-color: #782ec7;
       color: #782ec7; }
